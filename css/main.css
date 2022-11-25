@@ -28,3 +28,49 @@
 }
 
 /*******************Connect fonts end********************/
+
+/*******************Custom property start****************/
+:root {
+    --header-bg-color: #fff;
+    --main-bg-color: #f2f2f2;
+    --main-text-color: #939caa;
+    --btn-bg-color: #FCB72B;
+    --footer-bg-color: #495567;
+}
+
+/*******************Custom property end******************/
+
+/*******************General styles start*****************/
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: "Space Mono", "monospace", monospace;
+    font-weight: 700;
+}
+
+/*******************General styles end*******************/
