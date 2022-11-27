@@ -359,6 +359,100 @@ p {
 /*******************About-app section styles end********/
 
 /*******************Main styles end********************/
+
+/*******************Footer styles start****************/
+.site-footer {
+    background-color: var(--footer-bg-color);
+    background-image: url("../images/Mask.png");
+    background-position: 1300px 220px;
+    background-repeat: no-repeat;
+}
+
+.site-footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+.site-footer__title {
+    width: 415px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--header-bg-color);
+}
+
+.site-footer__top-list {
+    display: flex;
+    gap: 18px;
+}
+
+.site-footer__top-link {
+    display: block;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background-color: #E5ECF4;
+    border-radius: 4px;
+    padding: 8px 15px 9px 16px;
+}
+
+.text-desc {
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -0.446429px;
+    color: var(--footer-bg-color);
+}
+
+.text-title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.446429px;
+    color: var(--footer-bg-color);
+}
+
+.footer-bottom {
+    background-color: #333a44;
+}
+
+.site-footer__bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 32px;
+}
+
+.site-footer__bottom-start {
+    display: flex;
+    gap: 59px;
+    align-items: center;
+}
+
+.site-footer__logo {
+    color: var(--header-bg-color);
+}
+
+.site-footer__bottom-list {
+    display: flex;
+    gap: 32px;
+}
+
+.site-footer__bottom-link {
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+}
+
+.footer-bottom__end-list {
+    display: flex;
+    gap: 24px;
+}
+
+/*******************Footer styles end******************/
 /*******************Media styles start*****************/
 @media (max-width: 769px) {
     .container {
@@ -474,6 +568,23 @@ p {
     .about-app__section-desc {
         width: 573px;
     }
+
+    .site-footer {
+        background-position: 553px 194px;
+    }
+
+    .site-footer__top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 62px;
+        padding-bottom: 68px;
+    }
+
+    .site-footer__title {
+        width: 412px;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -568,6 +679,38 @@ p {
         top: 0;
         right: 0;
         width: 200px;
+    }
+
+    .site-footer__top {
+        padding: 88px 0;
+    }
+
+    .site-footer {
+        background-position: 176px 169px;
+    }
+
+    .site-footer__title {
+        width: 311px;
+        font-size: 32px;
+        line-height: 32px
+    }
+
+    .site-footer__bottom-wrapper {
+        flex-direction: column;
+        gap: 85px;
+        padding-top: 64px;
+        padding-bottom: 88px;
+    }
+
+    .site-footer__bottom-start {
+        flex-direction: column;
+        gap: 41px;
+    }
+
+    .site-footer__bottom-list {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
     }
 }
 
